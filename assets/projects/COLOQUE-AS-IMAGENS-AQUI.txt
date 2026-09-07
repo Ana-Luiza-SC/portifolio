@@ -1,0 +1,9 @@
+Coloque nesta pasta as imagens de capa dos projetos.
+
+Exemplo:
+  marketplace.webp
+
+Depois, em data/projects.js, use:
+  cover: "./assets/projects/marketplace.webp"
+
+Prefira imagens WebP ou JPG com aproximadamente 1200 x 800 pixels.

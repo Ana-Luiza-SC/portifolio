@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de Ana Luiza: Engenharia de Software, Design de Serviço e projetos multidisciplinares."
+    />
+    <meta name="theme-color" content="#f2f0e8" />
+    <title>Ana Luiza — Engenharia de Software & Design de Serviço</title>
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./data/projects.js" defer></script>
+    <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Voltar ao início"
+        ><span>AL</span><b>ANA LUIZA</b></a
+      >
+      <nav aria-label="Navegação principal">
+        <a href="#projetos" data-i18n="navProjects">Projetos</a>
+        <a href="#abordagem" data-i18n="navApproach">Abordagem</a>
+        <a href="#trajetoria" data-i18n="navJourney">Trajetória</a>
+        <a href="#contato" data-i18n="navContact">Contato</a>
+      </nav>
+      <div class="language" aria-label="Idioma">
+        <button class="active" type="button" data-lang="pt" aria-pressed="true">
+          PT</button
+        ><i>/</i>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <i></i><span data-i18n="eyebrow">PORTFÓLIO — 2026</span>
+          </p>
+          <h1>
+            <span data-i18n="heroA">Eu desenho</span><br /><em data-i18n="heroB"
+              >serviços, sistemas</em
+            ><br /><span data-i18n="heroC">e software.</span>
+          </h1>
+          <p class="intro" data-i18n="intro">
+            Estudante de Engenharia de Software com interesse em entender
+            problemas por inteiro — das pessoas e processos até a arquitetura e
+            o código.
+          </p>
+          <a class="primary" href="#projetos"
+            ><span data-i18n="explore">Explorar projetos</span><b>↘</b></a
+          >
+        </div>
+        <div
+          class="system"
+          aria-label="Pessoas, serviços, software e sistemas conectados"
+        >
+          <div class="orbit o1"></div>
+          <div class="orbit o2"></div>
+          <span class="n1" data-i18n="people">PESSOAS</span
+          ><span class="n2" data-i18n="services">SERVIÇOS</span>
+          <span class="n3">SOFTWARE</span
+          ><span class="n4" data-i18n="systems">SISTEMAS</span>
+          <div class="core">
+            <strong data-i18n="how">COMO</strong
+            ><small data-i18n-html="parts">AS PARTES<br />SE CONECTAM?</small>
+          </div>
+        </div>
+        <p class="available">
+          <i></i
+          ><span data-i18n="status"
+            >Aberta a estágios, colaborações e bons problemas</span
+          >
+        </p>
+      </section>
+
+      <section class="projects" id="projetos">
+        <p class="section-no">
+          01 / <span data-i18n="projectsLabel">PROJETOS</span>
+        </p>
+        <div class="section-head">
+          <h2 data-i18n="selectedProjects">Projetos selecionados</h2>
+          <p data-i18n="projectIntro">
+            Um espaço para Design de Serviço, produtos digitais, pesquisa,
+            código e experimentos. Cada projeto conta o que foi feito — e por
+            quê.
+          </p>
+        </div>
+        <div
+          class="filters"
+          id="project-filters"
+          aria-label="Filtrar projetos"
+        ></div>
+        <div class="project-grid" id="project-grid" aria-live="polite"></div>
+        <p class="empty-state" id="empty-state" hidden data-i18n="empty">
+          Nenhum projeto encontrado nesta categoria.
+        </p>
+      </section>
+
+      <section class="approach" id="abordagem">
+        <p class="section-no">
+          02 / <span data-i18n="approachLabel">ABORDAGEM</span>
+        </p>
+        <div class="section-head">
+          <h2 data-i18n="approachTitle">Como eu conecto as pontas</h2>
+          <p data-i18n="approachIntro">
+            Não separo a experiência do sistema que a sustenta. Investigo o
+            contexto, modelo as relações e construo a solução em ciclos curtos.
+          </p>
+        </div>
+        <div class="steps">
+          <article>
+            <small>01</small><b>◎</b>
+            <h3 data-i18n="understand">ENTENDER</h3>
+            <p data-i18n="understandText">
+              Contexto, pessoas e restrições antes de escolher uma solução.
+            </p>
+          </article>
+          <article>
+            <small>02</small><b>⌘</b>
+            <h3 data-i18n="model">MODELAR</h3>
+            <p data-i18n="modelText">
+              Jornadas, fluxos, dados e arquitetura tornam o sistema visível.
+            </p>
+          </article>
+          <article>
+            <small>03</small><b>{ }</b>
+            <h3 data-i18n="build">CONSTRUIR</h3>
+            <p data-i18n="buildText">
+              Protótipos e código transformam hipóteses em algo testável.
+            </p>
+          </article>
+          <article>
+            <small>04</small><b>↻</b>
+            <h3 data-i18n="learn">APRENDER</h3>
+            <p data-i18n="learnText">
+              Evidências orientam a próxima decisão — e o próximo ciclo.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="journey" id="trajetoria">
+        <p class="section-no">
+          03 / <span data-i18n="journeyLabel">TRAJETÓRIA</span>
+        </p>
+        <div class="journey-grid">
+          <div>
+            <h2 data-i18n="journeyTitle">Trajetória em construção</h2>
+            <p data-i18n="journeyIntro">
+              Uma visão acadêmica e profissional honesta, pensada para crescer
+              junto com a minha formação.
+            </p>
+          </div>
+          <div class="timeline">
+            <article>
+              <time data-i18n="now">Atualmente</time>
+              <div>
+                <h3 data-i18n="degree">Engenharia de Software</h3>
+                <p data-i18n="degreeText">
+                  Graduação em Engenharia de Software na Universidade de
+                  Brasília, com foco em desenvolvimento de sistemas, arquitetura
+                  de software, projetos acadêmicos e pesquisa aplicada.
+                </p>
+                <small data-i18n="education"
+                  >03/2023 - 12/2027 (previsão)</small
+                >
+              </div>
+            </article>
+            <article>
+              <time data-i18n="next">Atualmente</time>
+              <div>
+                <h3 data-i18n="experience">Estudante Pesquisadora do ITRAC</h3>
+                <p data-i18n="experienceText">
+                  Desenvolvimento de produção científica e estratégias de design
+                  de serviços, com foco em experiência de usuário (UX), no apoio
+                  à definição de uma abordagem colaborativa de transformação
+                  digital para a Secretaria Patrimônio da União (SPU).
+                </p>
+                <small data-i18n="history">09/2025 - agora</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="skills">
+          <span>JavaScript / TypeScript</span
+          ><span>Arquitetura de software</span><span>Pesquisa com usuários</span
+          ><span>Service blueprint</span><span>Prototipação</span
+          ><span>Dados & APIs</span>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contato">
+      <p class="eyebrow">
+        <i></i>04 / <span data-i18n="contactLabel">CONTATO</span>
+      </p>
+      <div class="footer-grid">
+        <h2 data-i18n="contactTitle">
+          Vamos conversar sobre o próximo desafio?
+        </h2>
+        <div>
+          <p data-i18n="contactIntro">
+            Se você trabalha com tecnologia, serviços ou inovação e vê espaço
+            para alguém que transita entre pesquisa e implementação, quero
+            ouvir.
+          </p>
+          <a id="email-link" href="mailto:seuemail@exemplo.com"
+            ><span data-i18n="email">Escrever um e-mail</span><b>↗</b></a
+          >
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>ANA LUIZA © <span id="current-year"></span></span>
+        <div>
+          <a id="linkedin-link" href="#">LinkedIn ↗</a
+          ><a id="github-link" href="https://github.com/Ana-Luiza-SC"
+            >GitHub ↗</a
+          ><a href="#top" data-i18n="top">Voltar ao topo ↑</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
