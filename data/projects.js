@@ -10,7 +10,7 @@
  */
 
 window.PORTFOLIO_CONFIG = {
-  email: "seuemail@exemplo.com",
+  email: "ssoares.analuiza@gmail.com",
   linkedin: "https://www.linkedin.com/in/ana-luiza-sc/",
   github: "https://github.com/Ana-Luiza-SC",
 };

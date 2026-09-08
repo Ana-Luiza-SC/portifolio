@@ -124,7 +124,7 @@
   });
 
   const config = window.PORTFOLIO_CONFIG || {};
-  const email = config.email || "seuemail@exemplo.com";
+  const email = config.email || "ssoares.analuiza@gmail.com";
   document.querySelector("#email-link").href = `mailto:${email}`;
   document.querySelector("#linkedin-link").href = safeUrl(config.linkedin) || "#";
   document.querySelector("#github-link").href = safeUrl(config.github) || "https://github.com/Ana-Luiza-SC";
